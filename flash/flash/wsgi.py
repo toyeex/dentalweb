@@ -8,6 +8,9 @@ https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/
 """
 
 import os
+import django_heroku
+from decouple import config
+import dj_database_url
 
 from django.core.wsgi import get_wsgi_application
 
